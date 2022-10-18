@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center;
     margin-top: 38px;
+    position: relative;
 }
 .button {
     width: 64px;
@@ -9,6 +10,8 @@
     border-radius: 50px;
     border: none;
     transition: all 0.3s ease-in;
+    position: absolute;
+    top: -70px;
 }
 .button:hover {
     background-color: #53ffaa;

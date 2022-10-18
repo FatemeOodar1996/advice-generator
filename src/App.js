@@ -18,7 +18,7 @@ const App = () => {
     return (
         <div>
             {advice && <Advice advice={advice} />}
-          
+
             {/* <Button /> */}
             <Button fetchData={fetchData} />
         </div>
