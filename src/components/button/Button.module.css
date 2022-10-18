@@ -1,0 +1,19 @@
+.buttonBody {
+    display: flex;
+    justify-content: center;
+    margin-top: 38px;
+}
+.button {
+    width: 64px;
+    aspect-ratio: 1/1;
+    border-radius: 50px;
+    border: none;
+    transition: all 0.3s ease-in;
+}
+.button:hover {
+    background-color: #53ffaa;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 33px 10px rgba(83, 255, 170, 0.41);
+    -moz-box-shadow: 0px 0px 33px 10px rgba(83, 255, 170, 0.41);
+    box-shadow: 0px 0px 33px 10px rgba(83, 255, 170, 0.41);
+}
