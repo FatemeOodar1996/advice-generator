@@ -13,13 +13,13 @@
     border-radius: 1rem;
     max-width: 530px;
     margin: 0;
-    gap: 1.5rem;
+    gap: 2rem;
 }
 .number {
     font-weight: 400;
     color: #53ffaa;
-    letter-spacing: 2px;
-    font-size: 14px;
+    letter-spacing: 3px;
+    font-size: 12px;
     margin: 0;
 }
 .image {
@@ -31,4 +31,6 @@
     color: #cee3e9;
     font-size: 22px;
     max-width: 445px;
+    margin: 0;
+    line-height: 30px;
 }
